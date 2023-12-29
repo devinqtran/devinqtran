@@ -1,0 +1,56 @@
+
+body {
+    background-image: url('../images/plainbg.png');
+    background-position: top;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: fantasy;
+}
+img {
+    display: block;
+    max-width: 100%;
+    max-height: auto;
+}
+.fa-facebook {
+    /* background: #3B5998; */
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Twitter */
+.fa-linkedin {
+    /* background: #007bb5; */
+    color: black;
+  }
+.fa-instagram {
+    /* background: #125688; */
+    color: black;
+  }
+  .regularheader1{
+    font-family: fantasy;
+    font-size: 6vw;
+    font-weight: bold;
+    color: black;
+    line-height: 100%;
+}
+.regularheader2{
+    font-family: fantasy;
+    font-size: 2vw;
+    font-weight: bold;
+    color: black;
+    line-height: 110%;
+}
+.cropped-ofp {
+    justify-content: center;
+    width: 70%; 
+    height: auto; 
+    object-fit: cover;
+    object-position: 25% 25%; 
+    }
+.cropped-ofp2{
+    justify-content: right;
+    width: 20%; 
+    height: auto; 
+    object-fit: contain;
+    object-position: 25% 25%; 
+    }

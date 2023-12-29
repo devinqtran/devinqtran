@@ -1,0 +1,97 @@
+/* Setting Styles */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: darkcyan;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-style: italic; */
+    color: blue;
+    text-decoration: none;
+}
+/* :hover{
+    text-decoration: underline;
+} */
+a.myclass:hover {
+    text-decoration: underline;    
+}
+li{
+    font-size: 14px;
+    font-weight: normal;
+}
+.bolder{
+    font-weight: bolder;
+}
+.underline{
+    text-decoration: underline;
+}
+.justify{text-align: justify;}
+
+.homebg{
+    background-image: url(../images/fullbg.png);
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.regularbg{
+    background-image: url(../images/plainbg.png);
+    background-position: top;
+    background-size: 100vh;
+    position: relative;
+    background-repeat: repeat;
+}
+
+.box1{
+    border-width: 1;
+    border-style: solid;
+    border: 1 px solid red;
+}
+.box2{
+    padding: 5px;
+}
+.box3{
+    margin: 50px;
+}
+.homeheader1{
+    font-family: fantasy;
+    font-size: 12vw;
+    font-weight: bold;
+    color: black;
+}
+.homeheader2{
+    font-family: fantasy;
+    font-size: 3vw;
+    font-weight: bold;
+    color: black;
+    padding-left: 1vw;
+}
+/* .regularheader1{
+    font-family: fantasy;
+    font-size: 8vw;
+    font-weight: bold;
+    color: black;
+}
+.regularheader2{
+    font-family: fantasy;
+    font-size: 2vw;
+    font-weight: bold;
+    color: black;
+    padding-left: 1vw;
+} */
+.regularheader{
+    width: 100vw;
+    min-height: 20vh;
+}
+.leftheader{
+    width: 20vw;
+    min-height: 20vh;
+    float: left;
+}
+.rightheader{
+    width: 80vw;
+    min-height: 20vw;
+    float: right;
+}

@@ -1,0 +1,183 @@
+/* Divisons */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    color: #000000;
+}
+:root{
+    --fs-xl:clamp(3.5rem, 12vw + 1rem, 12rem) ;
+    --fs-600:1.5rem ;
+    --fs-500:1.25rem ;
+    --fs-400:1rem ;
+}
+#regularbg{
+    background-image: url(../images/plainbg.png);
+    background-position: top;
+    background-size: 100vh;
+    position: relative;
+    background-repeat: repeat;
+}
+#mainhead{
+    background-color: green;
+    width: 100vw;
+    height: 40%;
+    clear: both;
+    padding: 2vw;
+}
+#lefthead{
+    background-color: aqua;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+#righthead{
+    background-color: blueviolet;
+    width: 80%;
+    height:100%;
+    float: right;
+    text-align: right;
+}
+#pagetitle{
+    background-color: deeppink;
+    width: 100vw;
+    min-height: 4vh;
+    text-align: center;
+    padding: 2vw;
+}
+.maincontent{
+    width: 100vw;
+    min-height: 30vh;
+    background-color: blue;
+    padding: 2vw;
+}
+.subcontent{
+    width: 100vw;
+    min-height: 30vh;
+    background-color: red;
+    padding: 2vw;
+}
+.foot{
+    min-height: 5vh;
+    font-size:1vw;
+    color: #000000;
+    text-align: center;
+    position: fixed;
+    padding: 2vw;
+}
+.regularheader1{
+    font-family: fantasy;
+    font-size: 6vw;
+    font-weight: bold;
+    color: black;
+}
+.regularheader2{
+    font-family: fantasy;
+    font-size: 3vw;
+    font-weight: bold;
+    color: black;
+}
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.pagetitle{
+    font-family: fantasy;
+    font-size: 3vw;
+    font-weight: bold;
+    color: black;
+}
+#contenttitle{
+    width: 30vw;
+    min-height: 6vh;
+    background-color: rgb(0, 255, 8);  
+    float: left; 
+}
+#contentdesc{
+    width: 30vw;
+    min-height: 20vh;
+    background-color: rgb(0, 170, 255);  
+    float: left; 
+}
+#contentimage{
+    width: 66vw;
+    height: 26vh;
+    float: right;
+    background-color: rgb(171, 210, 30);
+}    
+.card_image{
+    height: 90%;
+    object-fit: scale-down;
+    object-position: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: justify;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+.fa-facebook {
+    /* background: #3B5998; */
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Twitter */
+.fa-linkedin {
+    /* background: #007bb5; */
+    color: black;
+  }
+.fa-instagram {
+    /* background: #125688; */
+    color: black;
+  }
